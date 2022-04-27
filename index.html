@@ -3,54 +3,57 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Owais Idrisi</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <title>Guess - the Number</title>
-  <!-- HTML -->
+  <!-- Google Fonts  -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Maven+Pro&display=swap" rel="stylesheet">
 
-  <!-- Custom Styles -->
+  <!-- Css links -->
+
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="uttils.css">
 </head>
 
 <body>
-  <main>
+  <div class="overlay"></div>
+  <nav class="flex justify-between">
+    <div class="logo mx-1">
 
-    <div class="welcomeScreen">
-      <h2>Guess The Random Number
-        Between 1-100</h2>
-      <img src="game.png" alt="logo">
-
-      <div class="event-Sec">
-        <p>Select The Difficulty</p>
-        <div class="btn-wraper">
-          <button onclick="easy()">Easy: 10 Attempts</button>
-          <button onclick="hard()">Hard: 5 Attempts</button>
-          <button onclick="extreme()"> extreme: 2 Attempts</button>
-        </div>
-      </div>
-    </div>
-    <!-- game section -->
-    <div class="game-sec">
-      <h2 id="output">Your Guess</h2>
-      <input type="number" id="input" class="input" placeholder="Enter Your Guess" min="0" max="100" onchange="compare()">
-
-      <div class="result-sec">
-        <p>Number of previous attempts</p>
-        <span class="attempt">0</span>
-
-        <p>Number of previous guesses</p>
-        <span class="guesses">-</span>
-        <button onclick="reStart()" id="new-game">New Game</button>
-
-
-      </div>
+      <a href="#">Owais</a>
+      <!-- 
+          <img src="/images/Owais-logo(2).png" alt="">
+                -->
     </div>
 
-  </main>
+    <ul class="navbar flex  justify-between  align-center mx-1 font-size">
+      <a href="#" target="_blank"> <i class="fa fa-facebook fa-2x"></i></a>
+      <a href="https://www.instagram.com/owais.idrisi/" target="_blank"> <i class="fa fa-instagram fa-2x"></i></a>
+      <a href="https://www.twitter.com/owais_idrisi" target="_blank"> <i class="fa fa-twitter fa-2x"></i></a>
+      <a href="https://github.com/OWAISIDRISI53" target="_blank"> <i class="fa fa-github fa-2x"></i></a>
+    </ul>
+  </nav>
+  <!-- Main Section -->
 
-  <!-- Project -->
+  <section class="main flexbox col">
+    <h1 class="hello">Hello I'm</h1>
+    <h2 class="heading my-1 ">Owais Idrisi</h2>
+    <p>I'm a Web developer from Mumbai</p>
+    <button class="btn my-2 font-size white ">About Me</button>
+  </section>
+  <!-- Footer  -->
+  <footer class="footer">
+    <p>&#169; Copyright Owais. All Rights Reserved</p>
+  </footer>
+
+
+  <!-- Js -->
   <script src="main.js"></script>
 </body>
 
