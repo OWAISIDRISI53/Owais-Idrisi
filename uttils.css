@@ -1,4 +1,97 @@
-.flexbox {
+..flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.col {
+  flex-direction: column;
+}
+.text-center {
+  text-align: center;
+}
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.px-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.py-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.heading {
+  font-size: 2.6rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+li {
+  list-style: none;
+}
+.font-size {
+  font-size: 1.4rem;
+}
+.hide {
+  display: none;
+}
+.show {
+    display: flex;
+}
+.bold {
+  font-weight: bolder;
+}
+@media (max-width: 480px) {
+  .heading {
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+  .my-1 {
+  margin-top: 0.5rem;
+  margin-bottom:0.5rem;
+}
+.my-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.px-1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.mx-1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.py-1 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+  .font-size {
+  font-size: 1rem;
+}
+}
+ {
   display: flex;
   justify-content: center;
   align-items: center;
