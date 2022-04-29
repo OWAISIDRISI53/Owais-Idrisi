@@ -9,8 +9,13 @@
 }
 
 
+
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .align-center {
@@ -73,6 +78,20 @@ li {
   color: #fff;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+    display: flex;
+
+}
+
+
+.bold {
+  font-weight: bolder;
+}
+
 
 @media (max-width: 480px) {
   
@@ -107,10 +126,9 @@ li {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-  
+
   .font-size {
   font-size: 1rem;
 }
-
   
 }
